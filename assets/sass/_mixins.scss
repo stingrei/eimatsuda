@@ -1,0 +1,81 @@
+//----------------
+//media query
+//----------------
+
+@mixin mq {
+  @media screen and (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin mq_max {
+  @media screen and (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin mq_s {
+  @media screen and (min-width: $breakpoint_s) {
+    @content;
+  }
+}
+
+@mixin font-yu-micho(){
+    font-family: yu-mincho-pr6n,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@mixin font-text(){
+    font-family: adobe-text-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+//----------------
+//responsive font size
+// arg ラフ上のフォントサイズ(px)
+//----------------
+@mixin font-size-responsive($size: 30px) {
+    font-size: ($size/($base_wide_sp/100))*1vw;
+    @include mq_s() {
+        font-size: ($size/($base_wide_sp/100))*.5rem;
+    }
+}
+
+//----------------
+//縦書き
+//----------------
+@mixin tategaki() {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-feature-settings: 'pkna';
+}
+
+
+//----------------
+//plus icon
+//角丸
+//----------------
+@mixin plus($color:#000, $size: 7px, $size2: 1px){
+    position: relative;
+
+    &:before, &:after {
+        content: '';
+        width: $size;
+        height: $size2;
+        background: $color;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: ($size2/2);
+    }
+
+    &:after {
+        transform: rotate(90deg);
+        transition: transform .3s ease;
+    }
+}

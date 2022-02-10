@@ -1,0 +1,31 @@
+//ブレイクポイント
+$breakpoint: 980px;
+$breakpoint_s: 500px;
+
+
+//ラフのサイズ
+$base_wide_sp: 375px;
+$base_wide: 2732px;
+
+
+//コンテンツ幅
+$inner_wide: 2516px;
+$inner_small_wide: 2070px;
+
+
+//色
+$main_color: #FFE072;
+$text-color: #000;
+$link-color: #555;
+
+
+//z-index
+$z-left-column: 1000;
+$z-left-column-cover: 1100;
+
+$max-height: 1024px;
+$max-width: 1440px;
+
+
+
+// $max-rate: ($breakpoint_s/$base_wide_sp);

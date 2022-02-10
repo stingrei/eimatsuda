@@ -1,0 +1,68 @@
+@import '_common.scss';
+
+body {
+	background: $main_color;
+	color: $text_color;
+	font-family: 'Fugaz One', cursive;
+	font-size: (10/16)*100%;
+}
+
+
+#main {
+	
+	display: block;
+	&[data-barba-namespace] {
+		height: 100vh;
+		position: relative;
+		.block {
+			width: (305px/$base_wide_sp)*100%;
+			border: 4px solid $text_color;
+			height: (745/812)*100%;
+			margin: auto;
+			position: absolute;
+			top: 50%;
+			left: -5px;
+			right: -5px;
+			transform: translateY(-50%);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: $main_color;
+			z-index: 2;
+			&:before {
+				content: '';
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				background: $main_color;
+				left: 0;
+				top: 0;
+				z-index: 2;
+			}
+			&:after {
+				content: '';
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				background: $text_color;
+				left: 0;
+				top: 0;
+				margin: 5% 0 0 5%;
+				z-index: 1;
+			}
+			.texts {
+				text-align: center;
+				transform: translateY(8px);
+				position: relative;
+				z-index: 3;
+				.name {
+					font-size: (36rem/10);
+				}
+				.occupation {
+					font-size: (18rem/10);
+					margin-top: 5px;
+				}
+			}
+		}
+	}
+}

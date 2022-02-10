@@ -1,0 +1,249 @@
+@import '_config.scss';
+@import '_mixins.scss';
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+*:before, *:after{
+    box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+html {
+    font-size: calc(10 / 16)*100%;
+}
+
+body {
+    font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Maru Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', sans-serif;
+    line-height: 1;
+    position: relative;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.clearfix {
+    display: inline-block;
+    height: 1%;
+
+    &::after {
+        clear: both;
+        content: '.';
+        display: block;
+        height: 0;
+        visibility: hidden;
+    }
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+@media screen and (max-width: $breakpoint) {
+    .sp {
+        display: block;
+    }
+
+    .pc {
+        display: none !important;
+    }
+}
+@media screen and (min-width: $breakpoint) {
+    .sp {
+        display: none !important;
+    }
+
+    .pc {
+        display: block;
+    }
+}
+
+.scroll-in {
+    opacity: 0;
+    transform: translateY(20px);
+
+    &.show {
+        opacity: 1;
+        transition: .5s ease;
+        transform: none;
+    }
+}
+
+
+
+body {
+  background: $main_color;
+  color: $text_color;
+  font-family: 'Fugaz One', cursive;
+
+  .right-column-inner {
+    &.page-enter-active,
+    &.page-leave-active {
+      transition: transform 0.5s ease .5s;
+      .work-detail-title {
+        transition: .6s ease .0s;
+      }
+      .work-container {
+        transition: opacity 0s ease 0s;
+
+        .data-list, .sp-img {
+          transition: .6s ease .0s;
+        }
+      }
+      .fade, .fade-in {
+        transition: opacity .7s ease 0s;
+      }
+    }
+    &.page-leave-to {
+      transform: none;
+      @include mq{
+        .works-block-bg-images {
+
+          .bg {
+            width: calc((100% - 239px)*.666378565255);
+            top: 164px;
+            height: 0;
+            padding-top: 31.5%;
+            background-color: transparent;
+            transition: background .5s ease, padding .5s ease, height .5s ease;
+            border: 3px solid #000;
+            transition: width .5s ease, top .5s ease, padding-top .5s ease;
+            &.hover {
+              opacity: 1;
+            }
+          }
+        }
+      }
+      .works-block, .works-title {
+        opacity: 0;
+        transition: opacity .5s ease;
+      }
+      .fade, .fade-out {
+        opacity: 0;
+      }
+    }
+    &.page-enter {
+      .fade, .fade-in {
+        opacity: 0;
+      }
+      .work-detail-title {
+        opacity: 0;
+      }
+      .work-container {
+        opacity: 0;
+
+
+        .data-list, .sp-img {
+          opacity: 0;
+
+        }
+
+      }
+    }
+  }
+  #right-column {
+    @include mq{
+      &.wide {
+        .right-column-inner {
+          &.page-leave-to {
+            .works-block-bg-images {
+              .bg {
+                width: 66.6378565255%;
+                padding-top: 39%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .layout-leave-active, .layout-enter-active {
+    transition: opacity 0s ease .8s;
+  }
+  .layout-leave-to {
+    .block {
+      width: 100%;
+      height: 100%;
+      transition: .5s ease;
+      @include mq{
+        max-width: $max-width;
+        max-height: $max-height;
+        height: calc(100vh - 80px);
+        width: calc(100% - 80px);
+      }
+      .texts {
+        opacity: 0;
+        transition: .5s ease;
+      }
+    }
+
+    .container {
+      width: calc(305px / $base-wide-sp)*100%;
+      max-width:  969px;
+      height: calc(745 / 812)*100%;
+      transition: .5s ease .3s;
+      margin: 0 auto;
+      @include mq{
+        height: 539px;
+      }
+      #right-column, #left-column, .menu-trigger {
+        opacity: 0;
+        transition: .3s ease;
+      }
+    }
+  }
+
+  .layout-enter {
+    opacity: 1;
+    .container {
+      #right-column, #left-column, .menu-trigger {
+        opacity: 0;
+
+      }
+    }
+  }
+}
+
+
+
