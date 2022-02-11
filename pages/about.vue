@@ -11,19 +11,22 @@
         </div>
         <p>
           Hello <br>
-          I'm an Front-end developer based in TOKYO.<br>
-          Currently I belong to Rhino inc.
+          I'm an experienced Front-end developer based in TORONTO moved from TOKYO.<br>
+          I'm good at develop web pages with high quality and high speed.
         </p>
         <p>
-          Feel free to check my resume.<br>
-          If you’d like to chat contact me.
+          Feel free to check my <a href="" target="_blank">resume</a>.<br>
+          If you’d like to chat, contact me.
         </p>
 
         <p class="skills">
+          I'm familiar with<br>
           HTML5<br>
-          JavaScript (jQuery, vue)<br>
+          JavaScript (jQuery, vue, nuxt)<br>
           CSS (Sass, scss)<br>
-          PHP(WordPress)
+          PHP(WordPress)<br>
+          gulp, npm<br>
+          photoshop, illustrator
         </p>
         <p class="contact">
           Contact me at:<br>
@@ -31,17 +34,17 @@
         </p>
         <ul class="sns">
           <li>
-            <a href="" target="_blank">
+            <a href="https://www.instagram.com/wtf_shouldidowithmylife/" target="_blank">
               <i class="fab fa-instagram"></i>
             </a>
           </li>
           <li>
-            <a href="" target="_blank">
+            <a href="https://twitter.com/stingr_ei" target="_blank">
               <i class="fab fa-twitter-square"></i>
             </a>
           </li>
           <li>
-            <a href="" target="_blank">
+            <a href="https://www.facebook.com/ei.matsuda/" target="_blank">
               <i class="fab fa-facebook-square"></i>
             </a>
           </li>
@@ -53,11 +56,6 @@
 
 <script>
   export default {
-    data(){
-      return {
-        subtitle: 'この文書はNuxt.jsの基本的な使用方法について説明しています。'
-      }
-    },
     head(){
         return {
             title: 'About Page',
@@ -88,7 +86,7 @@
       width: calc(824 / 1153)*100%;
       position: relative;
       margin-top: 56px;
-      padding-right: 163px;
+      padding-right: 173px;
     }
     .image {
       width: 163px;

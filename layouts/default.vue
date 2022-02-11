@@ -7,6 +7,7 @@
           <div class="names">
             <nuxt-link to="/">
               <h1 class="name">Ei MATSUDA</h1>
+
               <p class="occupation">
                   Front-end developer
               </p>
@@ -232,6 +233,9 @@ export default {
       margin: 0 auto;
       bottom: 30px;
       text-align: center;
+      &:hover {
+        cursor: pointer;
+      }
     }
 
 
@@ -264,9 +268,13 @@ export default {
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    color: #000;
     @include mq{
       left: 40px;
       bottom: 40px;
+      &:hover {
+        cursor: pointer;
+      }
       @media screen and (min-width: 1522px) {
         left: auto;
         right: calc(50% + 675px);

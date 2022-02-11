@@ -15,7 +15,7 @@ export default {
 <style lang="scss" scoped>
 #main {
   display: block;
-  height: 100vh;
+  height: 100%;
   position: relative;
   // max-width: 1440px;
 }
