@@ -104,16 +104,18 @@ export default {
 <style lang="scss" scoped>
 @import '~/assets/sass/_config.scss';
 @import '~/assets/sass/_mixins.scss';
+
+
 .whole-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 
 }
 .container {
   border: 4px solid #000;
-  height: 100vh;
+  height: 100%;
   overflow: scroll;
   width: 100%;
   @include mq{
@@ -236,7 +238,7 @@ export default {
   }
   #right-column {
     padding: 70px 0;
-    min-height: 100vh;
+    min-height: 100%;
     transition: .4s ease;
     @include mq{
       min-height: 0;

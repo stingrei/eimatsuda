@@ -4,7 +4,7 @@
       <h1 class="title fade">About</h1>
       <div class="about-block fade">
         <div class="image">
-          <img src="/portrait.jpg" alt="about-block">
+          <img src="/portrait_new.jpg" alt="ei matsuda">
         </div>
         <div class="name">
           Ei Matsuda

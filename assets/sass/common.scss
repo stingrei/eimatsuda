@@ -107,7 +107,9 @@ img {
     }
 }
 
-
+html, body, #__nuxt, #__layout {
+  height: 100%;
+}
 
 body {
   background: $main_color;
