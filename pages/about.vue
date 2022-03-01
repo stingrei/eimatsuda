@@ -11,11 +11,11 @@
         </div>
         <p>
           Hello <br>
-          I'm an experienced Front-end developer based in TORONTO moved from TOKYO.<br>
-          I'm good at develop web pages with high quality and high speed.
+          An experienced Front-end developer based in TORONTO moved from TOKYO.<br>
+          Good at developping web pages with high quality and high speed.
         </p>
         <p>
-          Feel free to check my <a href="" target="_blank">resume</a>.<br>
+          Feel free to check my <a href="/resume/eimatsuda.pdf" target="_blank">resume</a>.<br>
           If you’d like to chat, contact me.
         </p>
 
@@ -26,7 +26,12 @@
           CSS (Sass, scss)<br>
           PHP(WordPress)<br>
           gulp, npm<br>
-          photoshop, illustrator
+          photoshop, illustrator, XD,　figma<br>
+          Git, Google Analytics, Google ad manager, SEO
+        </p>
+
+        <p>
+          I'd worked in <a href="http://www.rhino-inc.jp/" target="_blank">Rhino inc.</a> before I came to TORONTO.
         </p>
         <p class="contact">
           Contact me at:<br>
@@ -46,6 +51,11 @@
           <li>
             <a href="https://www.facebook.com/ei.matsuda/" target="_blank">
               <i class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/ei-matsuda-636a9922b/" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
             </a>
           </li>
         </ul>
@@ -112,7 +122,10 @@
       margin-top: 30px;
       a {
         text-decoration: underline;
-        color: #555;
+        color: #C36F21;
+        &:hover {
+          text-decoration: none;
+        }
       }
       &.skills {
         margin-top: 70px;
@@ -127,6 +140,9 @@
         a {
           i {
             font-size: calc(30rem / 10);
+          }
+          &:hover {
+            color: #C36F21;
           }
         }
       }

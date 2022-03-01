@@ -2,9 +2,9 @@
   {
     "id": 1,
     "name": "HOUYHNHNM",
-    "background": "work1.png",
-    "mainImage": "work1.png",
-    "spImage": "work1.png",
+    "background": "work1.jpg",
+    "mainImage": "work1.jpg",
+    "spImage": "work1_sp.jpg",
     "items": [
       {
         "key": "client",
@@ -15,15 +15,19 @@
         "content": "2019"
       },
       {
-        "key": "description",
-        "content": "テキストテキストテキストテキストテキストテキスト"
+        "key": "My role",
+        "content": "Front-end, Wordpress, server"
+      },
+      {
+        "key": "description-jp",
+        "content": "株式会社ライノ在籍中に担当した案件です。ファッション、カルチャー、ライフスタイルWEBマガジン 「HOUYHNHNM」のリニューアルにおいて、全ページのフロントエンド実装、Wordpressのテーマ改修、を担当しました。"
+      },
+      {
+        "key": "description-en",
+        "content": "This is the work that while I was working in Rhino inc. Renewed Fashion and lifestyle web magazine 'HOUYHNHNM'. My role were front-end, Wordpress and servers"
       }
     ],
     "links": [
-      {
-        "label": "visit this site",
-        "url": "https://www.houyhnhnm.jp/"
-      },
       {
         "label": "visit this site",
         "url": "https://www.houyhnhnm.jp/"
@@ -32,15 +36,10 @@
   },
   {
     "id": 2,
-    "name": "Fudge tab.",
-    "background": "work2.png"
-  },
-  {
-    "id": 1,
-    "name": "HOUYHNHNM",
-    "background": "work1.png",
-    "mainImage": "work1.png",
-    "spImage": "work1.png",
+    "name": "HARE",
+    "background": "work2.jpg",
+    "mainImage": "work2.jpg",
+    "spImage": "work2_sp.jpg",
     "items": [
       {
         "key": "client",
@@ -48,30 +47,34 @@
       },
       {
         "key": "year",
-        "content": "2019"
+        "content": "2021"
       },
       {
-        "key": "description",
-        "content": "テキストテキストテキストテキストテキストテキスト"
+        "key": "My role",
+        "content": "html, css, javascript"
+      },
+      {
+        "key": "description-jp",
+        "content": "株式会社アダストリアのファッションブランドHAREのランディングページ。スクロール量に応じてサイズが変わる演出などを実装しました。"
+      },
+      {
+        "key": "description-en",
+        "content": "The landing page of clothing brand 'HARE' run by 'Adastria Co., Ltd'."
       }
     ],
     "links": [
       {
-        "label": "visit this site",
-        "url": "https://www.houyhnhnm.jp/"
-      },
-      {
-        "label": "visit this site",
-        "url": "https://www.houyhnhnm.jp/"
+        "label": "visit this page",
+        "url": "https://www.dot-st.com/m/cp/hare/harere22"
       }
     ]
   },
   {
-    "id": 1,
-    "name": "HOUYHNHNM",
-    "background": "work1.png",
-    "mainImage": "work1.png",
-    "spImage": "work1.png",
+    "id": 3,
+    "name": "LOWRYS FARM",
+    "background": "work3.jpg",
+    "mainImage": "work3.jpg",
+    "spImage": "work3_sp.jpg",
     "items": [
       {
         "key": "client",
@@ -79,30 +82,34 @@
       },
       {
         "key": "year",
-        "content": "2019"
+        "content": "2021"
       },
       {
-        "key": "description",
-        "content": "テキストテキストテキストテキストテキストテキスト"
+        "key": "My role",
+        "content": "html, css, javascript"
+      },
+      {
+        "key": "description-jp",
+        "content": "株式会社アダストリアのファッションブランドLOWRYS FARMのランディングページ。様々な文字の出現方法を実装しました。"
+      },
+      {
+        "key": "description-en",
+        "content": "The landing page of clothing brand 'LOWRYS FARM' run by 'Adastria Co., Ltd'."
       }
     ],
     "links": [
       {
-        "label": "visit this site",
-        "url": "https://www.houyhnhnm.jp/"
-      },
-      {
-        "label": "visit this site",
-        "url": "https://www.houyhnhnm.jp/"
+        "label": "visit this page",
+        "url": "https://www.dot-st.com/m/cp/lowrysfarm/2022ss_10looks"
       }
     ]
   },
   {
-    "id": 1,
-    "name": "HOUYHNHNM",
-    "background": "work1.png",
-    "mainImage": "work1.png",
-    "spImage": "work1.png",
+    "id": 4,
+    "name": "EiiS",
+    "background": "work4.jpg",
+    "mainImage": "work4.jpg",
+    "spImage": "work4_sp.jpg",
     "items": [
       {
         "key": "client",
@@ -110,145 +117,72 @@
       },
       {
         "key": "year",
-        "content": "2019"
+        "content": "2021"
       },
       {
-        "key": "description",
-        "content": "テキストテキストテキストテキストテキストテキスト"
+        "key": "My role",
+        "content": "html, css, javascript"
+      },
+      {
+        "key": "description-jp",
+        "content": "株式会社アダストリアのファッションブランドEiiSのランディングページ。スマホでは横スクロール、PCサイズでは縦スクロールになっています。"
+      },
+      {
+        "key": "description-en",
+        "content": "The landing page of clothing brand 'EiiS' run by 'Adastria Co., Ltd'."
       }
     ],
     "links": [
       {
-        "label": "visit this site",
-        "url": "https://www.houyhnhnm.jp/"
-      },
-      {
-        "label": "visit this site",
-        "url": "https://www.houyhnhnm.jp/"
+        "label": "visit this page",
+        "url": "https://globalwork.jp/eiis_2022spring/"
       }
     ]
   },
   {
-    "id": 1,
-    "name": "HOUYHNHNM",
-    "background": "work1.png",
-    "mainImage": "work1.png",
-    "spImage": "work1.png",
+    "id": 5,
+    "name": "FUDGE tab.",
+    "background": "work5_1.jpg",
+    "mainImage": "work5_1.jpg",
+    "spImage": "work5_1_sp.jpg",
     "items": [
       {
         "key": "client",
-        "content": "Rhino inc."
+        "content": "株式会社三栄"
       },
       {
         "key": "year",
-        "content": "2019"
+        "content": "2021"
       },
       {
-        "key": "description",
-        "content": "テキストテキストテキストテキストテキストテキスト"
+        "key": "My role",
+        "content": "html, css, javascript"
+      },
+      {
+        "key": "description-jp",
+        "content": "webマガジンFUDGE.jp 内の特集、FUDGE tab.の実装を担当しました。"
+      },
+      {
+        "key": "description-en",
+        "content": "Developed pages of 'FUDGE tab.' inside the Web magazine 'FUDGE.jp'"
       }
     ],
     "links": [
       {
-        "label": "visit this site",
-        "url": "https://www.houyhnhnm.jp/"
+        "label": "vol.23",
+        "url": "https://fudge.jp/fudgetab/vol-23/"
       },
       {
-        "label": "visit this site",
-        "url": "https://www.houyhnhnm.jp/"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "name": "HOUYHNHNM",
-    "background": "work1.png",
-    "mainImage": "work1.png",
-    "spImage": "work1.png",
-    "items": [
-      {
-        "key": "client",
-        "content": "Rhino inc."
+        "label": "vol.25",
+        "url": "https://fudge.jp/fudgetab/vol-25/"
       },
       {
-        "key": "year",
-        "content": "2019"
+        "label": "vol.26",
+        "url": "https://fudge.jp/fudgetab/vol-26/"
       },
       {
-        "key": "description",
-        "content": "テキストテキストテキストテキストテキストテキスト"
-      }
-    ],
-    "links": [
-      {
-        "label": "visit this site",
-        "url": "https://www.houyhnhnm.jp/"
-      },
-      {
-        "label": "visit this site",
-        "url": "https://www.houyhnhnm.jp/"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "name": "HOUYHNHNM",
-    "background": "work1.png",
-    "mainImage": "work1.png",
-    "spImage": "work1.png",
-    "items": [
-      {
-        "key": "client",
-        "content": "Rhino inc."
-      },
-      {
-        "key": "year",
-        "content": "2019"
-      },
-      {
-        "key": "description",
-        "content": "テキストテキストテキストテキストテキストテキスト"
-      }
-    ],
-    "links": [
-      {
-        "label": "visit this site",
-        "url": "https://www.houyhnhnm.jp/"
-      },
-      {
-        "label": "visit this site",
-        "url": "https://www.houyhnhnm.jp/"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "name": "HOUYHNHNM",
-    "background": "work1.png",
-    "mainImage": "work1.png",
-    "spImage": "work1.png",
-    "items": [
-      {
-        "key": "client",
-        "content": "Rhino inc."
-      },
-      {
-        "key": "year",
-        "content": "2019"
-      },
-      {
-        "key": "description",
-        "content": "テキストテキストテキストテキストテキストテキスト"
-      }
-    ],
-    "links": [
-      {
-        "label": "visit this site",
-        "url": "https://www.houyhnhnm.jp/"
-      },
-      {
-        "label": "visit this site",
-        "url": "https://www.houyhnhnm.jp/"
+        "label": "vol.27",
+        "url": "https://fudge.jp/fudgetab/vol-27/"
       }
     ]
   }

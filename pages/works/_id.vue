@@ -8,13 +8,16 @@
         </div>
         <div class="data-list">
           <div class="data-line" v-for="item in this.work.items">
-            <div class="data-key" v-if="item.key!='description'">
+            <div class="data-key" v-if="item.key!='description-jp' && item.key!='description-en'">
               {{ item.key }}
             </div>
-            <div class="data-content" v-if="item.key!='description'">
+            <div class="data-content" v-if="item.key!='description-jp' && item.key!='description-en'">
               {{ item.content }}
             </div>
-            <div v-if="item.key=='description'" class="description">
+            <div v-if="item.key=='description-en'" class="description-en">
+              {{ item.content }}
+            </div>
+            <div v-if="item.key=='description-jp'" class="description-jp">
               {{ item.content }}
             </div>
           </div>
@@ -110,11 +113,19 @@
           border: 3px solid #000;
           padding: 10px;
 
+          &.data-key {
+            text-align: center;
+            min-width: 100px;
+            &:first-letter {
+              text-transform: uppercase;
+            }
+          }
+
         }
         .data-content {
           margin-left: -3px;
         }
-        .description {
+        .description-en, .description-jp {
           border: 3px solid #000;
           width: 100%;
           padding: 7px;
@@ -123,6 +134,10 @@
           @include mq{
             max-width: 70%;
           }
+        }
+        .description-jp {
+          font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Maru Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', sans-serif;
+          font-weight: 600;
         }
       }
 
@@ -136,6 +151,10 @@
         margin-top: -3px;
         &:nth-child(n+2){
           margin-left: -3px;
+        }
+        &:hover {
+          background: #000;
+          color: $main_color;
         }
       }
     }
