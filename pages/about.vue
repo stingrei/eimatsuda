@@ -15,7 +15,7 @@
           Good at developping web pages with high quality and high speed.
         </p>
         <p>
-          Feel free to check my <a href="/resume/eimatsuda.pdf" target="_blank">resume</a>.<br>
+          Feel free to check my <a href="/resume/resume_ei_matsuda.pdf" target="_blank">resume</a>.<br>
           If you’d like to chat, contact me.
         </p>
 
