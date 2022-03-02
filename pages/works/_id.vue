@@ -105,7 +105,7 @@
       .data-line {
         display: flex;
         justify-content: flex-start;
-        align-items: flex-start;
+        // align-items: flex-start;
         margin-top: -3px;
         font-size: calc(20rem / 10);
         .data-key, .data-content {
@@ -116,6 +116,9 @@
           &.data-key {
             text-align: center;
             min-width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             &:first-letter {
               text-transform: uppercase;
             }
@@ -143,14 +146,20 @@
 
     }
     .link-line {
+      border-left: 3px solid #000;
+      display: inline-block;
+      border-top: 3px solid #000;
+      margin-top: -3px;
       .link {
         border: 3px solid #000;
         padding: 10px;
         font-size: calc(20rem / 10);
         display: inline-block;
-        margin-top: -3px;
+        border-top: none;
+        border-left: none;
+        // margin-top: -3px;
         &:nth-child(n+2){
-          margin-left: -3px;
+          // margin-left: -3px;
         }
         &:hover {
           background: #000;

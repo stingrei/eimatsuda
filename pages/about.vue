@@ -11,7 +11,7 @@
         </div>
         <p>
           Hello <br>
-          An experienced Front-end developer based in TORONTO moved from TOKYO.<br>
+          I am an experienced Front-end developer based in TORONTO moved from TOKYO.<br>
           Good at developping web pages with high quality and high speed.<br>
           my works <router-link active-class="current" to="/works">here!</router-link>
         </p>

@@ -1,11 +1,16 @@
 <template>
   <transition name="page" mode="out-in">
     <div class="right-column-inner">
-      <h1 class="title works-title fade-in">Works</h1>
+      <h1 class="title works-title fade-in">Work</h1>
       <div class="works-block fade-in">
         <ul class="works-list">
           <li v-for="work in works" :key="work.id">
-            <nuxt-link :to="{ name: 'works-id', params: { id: work.id } }" :data-works="work.id">{{ work.name }}</nuxt-link>
+            <nuxt-link :to="{ name: 'works-id', params: { id: work.id } }" :data-works="work.id" v-if="!work.nameForList">
+              {{ work.name }}
+            </nuxt-link>
+            <nuxt-link :to="{ name: 'works-id', params: { id: work.id } }" :data-works="work.id" v-if="work.nameForList">
+              {{ work.nameForList }}
+            </nuxt-link>
           </li>
         </ul>
       </div>

@@ -185,5 +185,68 @@
         "url": "https://fudge.jp/fudgetab/vol-27/"
       }
     ]
+  },
+  {
+    "id": 6,
+    "name": "KOBUCHISAWA Resort stay MALAIKA",
+    "nameForList": "Pension MALAIKA",
+    "background": "work6.jpg",
+    "mainImage": "work6.jpg",
+    "spImage": "work6_sp.jpg",
+    "items": [
+      {
+        "key": "client",
+        "content": "KOBUCHISAWA Resort stay MALAIKA"
+      },
+      {
+        "key": "year",
+        "content": "2021"
+      },
+      {
+        "key": "My role",
+        "content": "html, css, javascript, Wordpress"
+      },
+      {
+        "key": "description-jp",
+        "content": "小渕沢のペンションマライカ、コテージのガーオンのウェブサイトを作成しました。ワードプレスにより簡単に情報を更新できるようにして、予約フォームはGoogle Formで作成しました。"
+      }
+    ],
+    "links": [
+      {
+        "label": "visit this site",
+        "url": "http://pension.malaika.jp/"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Gallery Sigma",
+    "background": "work7.jpg",
+    "mainImage": "work7.jpg",
+    "spImage": "work7_sp.jpg",
+    "items": [
+      {
+        "key": "client",
+        "content": "Gallery Sigma"
+      },
+      {
+        "key": "year",
+        "content": "2021"
+      },
+      {
+        "key": "My role",
+        "content": "html, css, javascript, barba.js"
+      },
+      {
+        "key": "description-jp",
+        "content": "和歌山県の洋菓子店、ギャラリーシグマのウェブサイトを作成しました。Barba.jsを利用して、シームレスな画面遷移を実現しました。"
+      }
+    ],
+    "links": [
+      {
+        "label": "visit this site",
+        "url": "http://gallery-sigma.com/"
+      }
+    ]
   }
 ]

@@ -22,7 +22,7 @@
                 <router-link active-class="current" to="/about" >About</router-link>
               </li>
               <li @click="clickNavigation()">
-                <router-link active-class="current" to="/works">Works</router-link>
+                <router-link active-class="current" to="/works">Work</router-link>
               </li>
               <li>
                 <a href="mailto:ei.matsuda.13@gmail.com" target="_blank">Contact</a>

@@ -62,11 +62,11 @@ export default {
     '@nuxtjs/google-analytics'
   ],
   googleAnalytics: {
-    id: 'G-HMZDVQPDK5',
+    id: 'UA-221729608-1',
   },
   publicRuntimeConfig: {
     googleAnalytics: {
-      id: 'G-HMZDVQPDK5'
+      id: 'UA-221729608-1'
     }
   },
 
