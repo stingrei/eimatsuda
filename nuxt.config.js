@@ -5,17 +5,25 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'eimatsuda',
+    titleTemplate: '%s - ' + 'Ei Matsuda',
+    title: 'Ei Matsuda',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Hi! I am an experienced Front-end developer based in TORONTO moved from TOKYO.' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'msapplication-TileColor', content: '#FFE072' },
       { name: 'theme-color', content: '#FFE072' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'Ei Matsuda' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: 'https://ei-matsuda.com/' },
+      { hid: 'og:title', property: 'og:title', content: 'Ei Matsuda' },
+      { hid: 'og:description', property: 'og:description', content: 'Hi! I am an experienced Front-end developer based in TORONTO moved from TOKYO.' },
+      { hid: 'og:image', property: 'og:image', content: 'https://ei-matsuda.com/portrait_new.jpg' },
+      { name: 'twitter:card', content: 'summary' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -51,7 +59,16 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/google-analytics'
   ],
+  googleAnalytics: {
+    id: 'G-HMZDVQPDK5',
+  },
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: 'G-HMZDVQPDK5'
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
 

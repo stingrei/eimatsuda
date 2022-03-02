@@ -10,10 +10,15 @@
 </template>
 
 <script>
-export default {
-  layout: "top",
-  name: 'IndexPage',
-}
+  export default {
+    head(){
+        return {
+            title: 'Home',
+        }
+    },
+    layout: "top",
+    name: 'IndexPage',
+  }
 </script>
 
 <style lang="scss" scoped>

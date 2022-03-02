@@ -1,5 +1,5 @@
 {
-  "name": "eimatsuda",
+  "name": "EiMatsuda",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -18,6 +18,7 @@
     "vue-template-compiler": "^2.6.14"
   },
   "devDependencies": {
+    "@nuxtjs/google-analytics": "^2.4.0",
     "nuxt-sass-resources-loader": "^2.0.5",
     "sass": "^1.45.1",
     "sass-loader": "^10.2.0",

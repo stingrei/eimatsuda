@@ -46,7 +46,7 @@
   export default {
     head(){
         return {
-            title: this.work.name + ' | Works',
+            title: this.work.name + ' - Works',
         }
     },
     data () {

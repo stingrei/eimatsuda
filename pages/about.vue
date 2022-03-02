@@ -12,7 +12,8 @@
         <p>
           Hello <br>
           An experienced Front-end developer based in TORONTO moved from TOKYO.<br>
-          Good at developping web pages with high quality and high speed.
+          Good at developping web pages with high quality and high speed.<br>
+          my works <router-link active-class="current" to="/works">here!</router-link>
         </p>
         <p>
           Feel free to check my <a href="/resume/resume_ei_matsuda.pdf" target="_blank">resume</a>.<br>
@@ -26,13 +27,13 @@
           CSS (Sass, scss)<br>
           PHP(WordPress)<br>
           gulp, npm<br>
-          photoshop, illustrator, XD,　figma<br>
+          photoshop, illustrator, XD, figma<br>
           Git, Google Analytics, Google ad manager, SEO
         </p>
 
-        <p>
+        <!-- <p>
           I'd worked in <a href="http://www.rhino-inc.jp/" target="_blank">Rhino inc.</a> before I came to TORONTO.
-        </p>
+        </p> -->
         <p class="contact">
           Contact me at:<br>
           <a href="mailto:ei.matsuda.13@gmail.com">ei.matsuda.13@gmail.com</a>
