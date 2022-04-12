@@ -11,14 +11,14 @@
         </div>
         <p>
           Hello <br>
-          I am an experienced Front-end developer based in TORONTO moved from TOKYO.<br>
+          I am an experienced Front-end developer.<br>
           Good at developping web pages with high quality and high speed.<br>
           my works <router-link active-class="current" to="/works">here!</router-link>
         </p>
-        <p>
+        <!-- <p>
           Feel free to check my <a href="/resume/resume_ei_matsuda.pdf" target="_blank">resume</a>.<br>
           If you’d like to chat, contact me.
-        </p>
+        </p> -->
 
         <p class="skills">
           I'm familiar with<br>
@@ -36,7 +36,7 @@
         </p> -->
         <p class="contact">
           Contact me at:<br>
-          <a href="mailto:ei.matsuda.13@gmail.com">ei.matsuda.13@gmail.com</a>
+          <a href="mailto:ei.matsuda.13@gmail.com" target="_blank">ei.matsuda.13@gmail.com</a>
         </p>
         <ul class="sns">
           <li>
@@ -54,11 +54,11 @@
               <i class="fab fa-facebook-square"></i>
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a href="https://www.linkedin.com/in/ei-matsuda-636a9922b/" target="_blank">
               <i class="fa-brands fa-linkedin"></i>
             </a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
